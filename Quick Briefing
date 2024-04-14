@@ -1,0 +1,29 @@
+This is my first assignment in C++ at my first degree of Computer Science, i wanted to share it to show my programming skills in C++
+
+Our mission was to implement two types of media player: MP3 and MP4.
+There are 3 types of songs: Foxtrot,Techno and Waltz the 3 of them downloaded from SongFactory.
+The players are implemented by Linked List and here are the methods of it:
+Download:
+we're downloading a new song from SongFactory, create a new node and add it to the list.
+
+Play: 
+playing the songs will be different between MP3 and MP4:
+in MP3 songs are played in a chronological order.
+in MP4 songs are played in a reverse order and the player is skiping Techno.
+
+Backup:
+In our Main program we're creating 2 instances of player, backup and the media player.
+so this method suppose to deep copying our player into backup instance.
+
+Restore:
+In this method we restoring all the songs from the backup and deep copying it to the player.
+
+Remove: 
+Here we'll delete all the nodes in the list, we have to work delicate here in order to avoid memory leakage.
+
+Requirements for MP3 and MP4:
+MP3 initalized with Waltz instance, this song must be played first.
+MP4 doesn't play Techno, but when we print the number of songs we should include also the Techno songs.
+Main Function:
+Creating 2 instances of Player, waiting for input from the user to choose his MP type.
+then we let him choose between 5 options with switch case we repeat it by a do-while loop and then deleting our instances
