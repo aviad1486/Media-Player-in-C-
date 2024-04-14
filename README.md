@@ -1,4 +1,4 @@
-# Media-Player-in-C-
+# Media-Player-in-C++
 Application:
 You are required to implement 2 types of audio players (MP3 & MP4), and a small set of operations – downloading a song, playing all songs, removing all songs from your player, creating a backup of your player, and restoring its content from the backup.
 •	Download: there are 3 genres of songs – Foxtrot, Techno, and Waltz. Songs are “downloaded” from a SongFactory instance, as Song*, and stored on the Player. To store the songs on the player you will implement a linked list.
